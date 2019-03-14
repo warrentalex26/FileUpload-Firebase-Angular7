@@ -3,6 +3,8 @@
 - Ocupamos crear un modelo de datos para manejar las propiedades del proyecto.
 - Se usa angularfire2 la libreria para conectarse a Firebase `https://github.com/angular/angularfire2`
 - Si marca error aca `import * as firebase from 'firebase';` debemos de hacer un downgrade de angularfire2 y firebase
+- Usamos la directiva appNgDropFiles para convertir el div en un elemento que ya permita la recepcion de archivos mediante drop
+
 
 # FotosFB
 

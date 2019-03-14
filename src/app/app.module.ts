@@ -17,12 +17,14 @@ import { AppComponent } from './app.component';
 import { FotosComponent } from './components/fotos/fotos.component';
 import { CargaComponent } from './components/carga/carga.component';
 import {environment} from '../environments/environment';
+import { NgDropFilesDirective } from './directives/ng-drop-files.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
     FotosComponent,
-    CargaComponent
+    CargaComponent,
+    NgDropFilesDirective
   ],
   imports: [
     BrowserModule,
