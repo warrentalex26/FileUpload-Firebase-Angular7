@@ -24,4 +24,8 @@ export class CargaComponent implements OnInit {
       this.cargaImagenesService.cargarImagenesFirebase(this.archivos);
   }
 
+  limpiarArchivos() {
+    this.archivos = [];
+  }
+
 }
