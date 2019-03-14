@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {FileItem} from '../../models/file-item';
+import {CargaImagenesService} from '../../services/carga-imagenes.service';
 
 @Component({
   selector: 'app-carga',
@@ -7,9 +9,17 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CargaComponent implements OnInit {
 
-  constructor() { }
+  // Un arreglo de Archivos que quiero subir, el file-item es el modelo que nosotros creamos
+  archivos: FileItem[] = [];
+
+  constructor(public cargaImagenesService: CargaImagenesService) { }
 
   ngOnInit() {
+  }
+
+  cargarImagenes() {
+    // Va a tomar todos los archivos que tengamos y los mandara en el servicio
+      this.cargaImagenesService.cargarImagenesFirebase(this.archivos);
   }
 
 }
