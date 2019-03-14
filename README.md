@@ -1,6 +1,8 @@
 # NOTAS
 
-
+- Ocupamos crear un modelo de datos para manejar las propiedades del proyecto.
+- Se usa angularfire2 la libreria para conectarse a Firebase `https://github.com/angular/angularfire2`
+-
 
 # FotosFB
 
