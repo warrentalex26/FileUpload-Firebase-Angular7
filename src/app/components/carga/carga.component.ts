@@ -1,4 +1,4 @@
-import { Component, OnInit, EventEmitter,ElementRef, HostListener, Input, Output } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 import {FileItem} from '../../models/file-item';
 import {CargaImagenesService} from '../../services/carga-imagenes.service';
 
