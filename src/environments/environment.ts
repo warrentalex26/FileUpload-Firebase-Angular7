@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: 'AIzaSyC0jNlsn6lteuNVno22bfNvYyhImYst6-E',
+    apiKey: 'API_KEY',
     authDomain: 'fir-fotosa7.firebaseapp.com',
     databaseURL: 'https://fir-fotosa7.firebaseio.com',
     projectId: 'fir-fotosa7',
